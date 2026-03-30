@@ -698,7 +698,7 @@ DELETE /api/apartamentos/5a2c5b3d-73b0-4ae6-b11a-18ac3fc1f42a
 - A exclusão de apartamentos vendidos foi bloqueada para preservar a integridade histórica das transações;
 - O uso de DTOs evita expor diretamente a entidade da camada de persistência;
 
-# **DECISÇÕES TÉCNICAS**
+# **DECISÕES TÉCNICAS**
 - Uso de UNIQUEIDENTIFIER para garantir IDs únicos e distribuídos;
 - Uso de CHECK CONSTRAINT para garantir integridade dos status;
 - Separação entre reservas e vendas para refletir o domínio real;
